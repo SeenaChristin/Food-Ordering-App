@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Steer73 FoodCart</title>
+</head>
+<body>
+  <header>
+    <section id="header">
+     <div class="header container">
+      <div class="nav-bar">
+       <div class="brand">
+        <div class="logo">
+          <img src="img/logo-small.png">
+        </div>
+       </div>
+       <div class="nav-list">
+        <ul>
+          <li class="selected"><a href="#menu" data-after="Menu" >Menu</a></li>
+          <li><a href="#deals" data-after="Deals">Deals</a></li>
+          <li><a href="#orders" data-after="Orders">Orders</a></li>
+        </ul>
+       </div>
+       <div class="sign-login">
+        <ul>
+          <li><a href="#signup" data-after="Signup">SignUp</a></li>
+          <li class="selected"><a href="#login" data-after="Login" >Login</a></li>
+        </ul>
+       </div>
+      </div>    
+     </div>
+    </section>    
+  </header>
+  <main id="main">
+    <div class="main container">
+      <section id="content" class="content container">
+       
+       
+            <section id="location">
+              <div class="address">
+                <div class="title">Restaurant Location</div>
+                <div class="description">Unit 3, 322 Upper Newtownards Road, BT4 3EX, Belfast</div>
+              </div>
+              <div class="tableNo">
+                <div class="title">Table Number</div>
+                <div class="description">Table 1</div>
+              </div>
+            </section>
+
+        
+            <section id="search-filter" class="container">
+              <div class ="search">
+                <img src="img/search.png">
+                <input type="text" placeholder="Search for any dishes">
+              </div>
+              <div class="filter">
+                <img src="img/filter.png">
+                <div class="description">Filters</div> 
+                  <img src="img/up-arrow.png" class="selected arrow">
+                  <img src="img/down-arrow.png" class="arrow">         
+              </div>
+              <div class="filter-options">
+                <ul>
+                  <li><a href="#Vegan" data-after="Vegan">Vegan</a></li>
+                  <li class="selected"><a href="Healthy Haeart" >Healthy Heart</a></li>
+                  <li><a href="#ProtienPacked" data-after="Protien Packed">Protien Packed</a></li>
+                  <li><a href="#ComfortFood" data-after="Comfort Food">Comfort Food</a></li>
+                  <li><a href="#HighFibre" data-after="High Fibre">High Fibre</a></li>
+                </ul>
+              </div>
+            </section>
+
+
+
+             <section id="categoriesNav" class="container"> 
+              <div class="nav-list">
+                <ul>
+                  <li><a href="#starters" >Starters</a></li>
+                  <li><a href="#soups" >Soups</a></li>
+                  <li><a href="#orders">Curries</a></li>
+                  <li><a href="#orders">Fried Rice</a></li>
+                  <li><a href="#orders">Noodles</a></li>
+                  <li><a href="#orders">Sauces</a></li>
+                  <li><a href="#orders">Kids</a></li>
+                  <li><a href="#orders">Drinks</a></li>
+                </ul>
+              </div>
+             </section>
+
+
+          <section id="recent-orders" class="container">
+            <div class="title">
+              <div>Recent Orders</div>
+              <div>See all</div>
+            </div>
+            <div class="items">
+              <div class="item">
+                <div class="date">15th Aug 2021</div>
+                <div class="dish">
+                  <img src="img/foodpic.png">
+                  <div class="order-details">
+                    <div class="order-no">Order #34564</div>
+                    <div class="dish-name">Vegan Pad prik haeng</div>
+                    <div class="others"> + 3 more items
+                    <a href="#seeall">see all</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-bottom">
+                  <div class="price">€21.8</div>
+                  <div class="button">Reorder</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="date">15th Aug 2021</div>
+                <div class="dish">
+                  <img src="img/foodpic.png">
+                  <div class="order-details">
+                    <div class="order-no">Order #34564</div>
+                    <div class="dish-name">Vegan Pad prik haeng</div>
+                    <div class="others"> + 3 more items
+                    <a href="#seeall">see all</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-bottom">
+                  <div class="price">€21.8</div>
+                  <div class="button">Reorder</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+  
+          <section id="categories" class="container">
+            <div id="starters" class="type container">
+              <div class="title">Starters</div>
+              <div class="description">
+                <img src="img/foodpic2.jpeg" class="food">
+                <div class="dish-name">Chicken Noodles</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/nonveg.png">nonveg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic3.jpeg" class="food">
+                <div class="dish-name">Vegan Dish</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/vegan.png">vegan
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic.png" class="food">
+                <div class="dish-name">Veg Noodles</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/veg.png">veg
+                </div>            
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic3.jpeg" class="food">
+                <div class="dish-name">Vegan Dish</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/vegan.png">vegan
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic.png" class="food">
+                <div class="dish-name">Veg Noodles</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/veg.png">veg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic2.jpeg" class="food">
+                <div class="dish-name">Chicken Noodles</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/nonveg.png">nonveg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic3.jpeg" class="food">
+                <div class="dish-name">Vegan Dish</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/vegan.png">vegan
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic2.jpeg" class="food">
+                <div class="dish-name">Chicken Noodles</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/nonveg.png">nonveg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+            </div>
+
+
+            <div id="soups" class="type container">
+              <div class="title">Soups</div>
+              <div class="description">
+                <img src="img/foodpic4.jpeg" class="food">
+                <div class="dish-name">Chicken soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/nonveg.png">nonveg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic5.jpeg" class="food">
+                <div class="dish-name">Vegan Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/vegan.png">vegan
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic6.png" class="food">
+                <div class="dish-name">Vegetable Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/veg.png">veg
+                </div>            
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic4.jpeg" class="food">
+                <div class="dish-name">Vegan Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/vegan.png">vegan
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic5.jpeg" class="food">
+                <div class="dish-name">Vegetable Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/veg.png">veg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic6.png" class="food">
+                <div class="dish-name">Chicken Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/nonveg.png">nonveg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic4.jpeg" class="food">
+                <div class="dish-name">Vegan Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/vegan.png">vegan
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+              <div class="description">
+                <img src="img/foodpic5.jpeg" class="food">
+                <div class="dish-name">Chicken Soup</div>
+                <div class="specifications">
+                  <img src="img/hot.png">hot
+                  <img src="img/cal.png">500
+                  <img src="img/nonveg.png">nonveg
+                </div>
+                <div class="price-add container">
+                  <span class="price">€21.8</span>
+                  <img src="img/add.png" class="addtocart">
+                </div>
+              </div>
+            </div>
+      
+            </section>
+      </section> 
+      
+
+      <section id="mycart" class="mycart container">
+        <div class="title">My Cart</div>
+        <div class="cart ">
+            <div class="empty container">
+            <img src="img/mycart.png">
+            <div>Your cart is empty</div>
+            <div>Items you add to your cart would appear here</div>
+            <div class="coupons">% Add a voucher code</div>
+          </div>
+          <div class="addedname"></div>
+        </div>
+      </section>
+      
+  </div> 
+  </main>
+
+  <footer id="footer">
+    <div class="footer container">
+   <div class="policy">
+    <div class="nav-list">
+      <ul>
+        <li><a href="#terms"></a>Terms & Conditions</li>
+        <li><a href="#terms"></a>Privacy Policy</li>
+        <li><a href="#terms"></a>Cookies policy</li>
+        <li><a href="#terms"></a>Cookies Settings</li>
+      </ul>
+    </div>
+   
+   </div>
+   <div class="social container">
+    <img src="img/twitter.png">
+    <img src="img/youtube.png">
+    <img src="img/instagram.png">
+    <img src="img/facebook.png">
+   </div>
+  </div>
+  </footer>
+  <script type="text/javascript">
+    let elementsArray = document.querySelectorAll(".addtocart");
+    let addedname = [];
+    elementsArray.forEach(function(elem) {
+        elem.addEventListener("click", function(e) {
+            let name = e.target.parentElement.parentElement.getElementsByClassName('dish-name')[0].textContent;
+            document.getElementsByClassName('empty')[0].style.display = "none";
+            addedname.push(name);
+            document.getElementsByClassName('addedname')[0].innerHTML = addedname.join(', ');
+        });
+    });
+
+    document.getElementsByClassName('filter')[0].addEventListener("click",function(e){
+      let optionEl= document.getElementsByClassName('filter-options')[0];
+      if(optionEl.style.display === 'block'){
+        optionEl.style.display = 'none';
+      }
+      else{
+        optionEl.style.display = 'block';
+      }
+
+    })
+  </script>
+</body>
+</html> 
